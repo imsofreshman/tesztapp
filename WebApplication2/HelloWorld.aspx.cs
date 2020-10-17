@@ -11,7 +11,21 @@ namespace WebApplication2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!this.IsPostBack)
+            {
+                ddl1.Items.Add(new ListItem("János", "János"));
+                ddl1.Items.Add(new ListItem("László", "László"));
+                ddl1.Items.Add(new ListItem("Géza", "Géza"));
+                ddl1.Items.Add(new ListItem("Tamás", "Tamás"));
+            }
+            
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
 
         }
+
+
     }
 }
