@@ -4,7 +4,7 @@
     <h1>Hellobello</h1>
     <asp:DropDownList ID="ddl1" runat="server"> </asp:DropDownList>
     <asp:Button ID="Button1" runat="server" Text="Szöveg kiirása" OnClick="Button1_Click" />
-    <asp:Literal Text="szalami" runat="server" />
+    <asp:Literal id="Literal1" Text="szalami" runat="server" />
     <p>
         Ez az oldal alja
     </p>

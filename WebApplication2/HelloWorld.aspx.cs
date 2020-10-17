@@ -18,12 +18,12 @@ namespace WebApplication2
                 ddl1.Items.Add(new ListItem("Géza", "Géza"));
                 ddl1.Items.Add(new ListItem("Tamás", "Tamás"));
             }
-            
+
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-
+            Literal1.Text = "A gomb meg lett nyomva, a legördülő lista értéke: " + ddl1.SelectedValue;
         }
 
 
