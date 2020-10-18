@@ -55,6 +55,9 @@
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                         <li><a runat="server" href="~/HelloWorld">Hello World</a></li>
                         <li><a runat="server" href="~/Palindrom">Palindrom Tester</a></li>
+                        <li><a runat="server" href="~/Shopping/AddShoppingOccasion">Bevásárlás | Új időpont</a></li>
+                        <li><a runat="server" href="~/Shopping/AddShoppingItem">Bevásárlás | Új tétel</a></li>
+                        <li><a runat="server" href="~/Shopping/ListShoppingItems">Bevásárlás | Lista</a></li>
                     </ul>
                 </div>
             </div>
